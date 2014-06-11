@@ -18,11 +18,38 @@
   body {
     background-color: white; 
   }
+
+
+  /*=========================================*/
+  @font-face {
+    font-family: 'droid_arabic';
+    src: url('http://localhost/fonts/droid_arabic.ttf') format('truetype');
+  }
+
+  @font-face {
+    font-family: 'adobe_arabic';
+    src: url('http://localhost/fonts/adobe_arabic.otf') format("opentype");
+  }
+
+  .droid_arabic {
+    font-family: 'droid_arabic';
+  }
+
+  .adobe_arabic {
+    font-family: 'adobe_arabic';
+  }
+
+
+
   </style>
 
 </head>
 <body>
   <h2>Steroids Repro Template</h2>
+
+  <h1>السلام عليكم</h1>
+  <h1 class="droid_arabic">السلام عليكم</h1>
+  <h1 class="adobe_arabic">السلام عليكم</h1>
 
   <script>
     //Add your JavaScripts here
